@@ -37,15 +37,14 @@ const showinner=(userwin)=>{
     if(userwin){
         userscore++;
         userid.innerText=userscore;
-        resultid.innerText=`You Win!, ${userchoice} beats ${compchoice}`;
-        
+        resultid.innerText="The User has won";
+        resultid.style.backgroundColor="green";
     }
     else{
         compscore++;
         compid.innerText=compscore;
-        resultid.innerText=`You lost!, ${compchoice} beats ${userchoice}`;
-        
-        
+        resultid.innerText="The Computer has won";
+        resultid.style.backgroundColor="red";
     }
 
 }
