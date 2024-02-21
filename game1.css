@@ -39,7 +39,7 @@ h3{
 img:hover{
     border:2px solid black;
     border-radius: 50%;
-    cursor:grab;
+    cursor:pointer;
 }
 #user,#comp{
     font-size:40px;
