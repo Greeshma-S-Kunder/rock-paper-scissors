@@ -38,7 +38,7 @@ const showinner=(userwin)=>{
         userscore++;
         userid.innerText=userscore;
         resultid.innerText="The User has won";
-        resultid.style.backgroundColor="green";
+        resultid.style.backgroundColor="pink";
     }
     else{
         compscore++;
